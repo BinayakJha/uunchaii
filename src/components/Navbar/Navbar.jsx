@@ -64,7 +64,7 @@ const Navbar = () => {
 
   return (
     <div className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
-      <img src={logo} alt="logo" height="120px" onClick={scrollToTop} className="logo"/>
+      <img src={logo} alt="logo" height="100px" onClick={scrollToTop} className="logo"/>
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
       <ul ref={menuRef} className="nav-menu">
         <img src= {menu_close} onClick={closeMenu}alt="" className='nav-mob-close'/>

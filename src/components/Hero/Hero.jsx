@@ -6,7 +6,7 @@ const Hero = () => {
     return (
       <div id='home' className='hero'>
         <div className='hero-content'>
-          <h1>Uunchai</h1>
+          <h1>UUNCHAI</h1>
           <p>Connecting young minds in Nepal to create and explore</p>
         </div>
       </div>
