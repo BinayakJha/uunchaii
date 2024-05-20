@@ -14,7 +14,7 @@ const Supporter = () => {
   };
 
   return (
-    <div className='support'>
+    <div id="supporter" className='support'>
       <div className="support-title">
         <h1 className="about-heading">We are Supported by</h1>
       </div>

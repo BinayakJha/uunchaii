@@ -19,12 +19,14 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
-      <Project/>
+      <br></br>
+      <br />
+      {/* <Project/> */}
       <Application/>
-      <Team/>
+      {/* <Team/> */}
       <Supporter/>
-      <Faq/>
-      <Contact/>
+      {/* <Faq/> */}
+      {/* <Contact/> */}
       <Footer/>
 
 

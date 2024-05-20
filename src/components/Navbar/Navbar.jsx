@@ -70,12 +70,14 @@ const Navbar = () => {
         <img src= {menu_close} onClick={closeMenu}alt="" className='nav-mob-close'/>
         <li onClick={() => scrollToSection('home')}>Home</li>
         <li onClick={() => scrollToSection('about')}>About us</li>
-        <li onClick={() => scrollToSection('project')}>Projects</li>
-        <li onClick={() => scrollToSection('team')}>Team</li>
-        <li onClick={() => scrollToSection('faq')}>FAQ</li>
+        <li onClick={() => scrollToSection('application')}>Application</li>
+        <li onClick={() => scrollToSection('supporter')}>Supporters</li>
+        {/* <li onClick={() => scrollToSection('project')}>Projects</li> */}
+        {/* <li onClick={() => scrollToSection('team')}>Team</li> */}
+        {/* <li onClick={() => scrollToSection('faq')}>FAQ</li> */}
       </ul>
 
-      <div className="nav-connect" onClick={scrollToConnect}>Connect with us</div>
+      <div className="nav-connect"> <a href="https://forms.gle/FLEXtEoLoNPJvXLQ7"> Apply Now </a></div>
     </div>
   );
 }
