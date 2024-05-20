@@ -27,8 +27,8 @@ const Supporter = () => {
         ))}
       </div>
       <div className="controls">
-        <button onClick={handlePrev} disabled={startIndex === 0} className="animated-button">Prev</button>
-        <button onClick={handleNext} disabled={startIndex + 4 >= SupporterData.length} className="animated-button">Next</button>
+        {/* <button onClick={handlePrev} disabled={startIndex === 0} className="animated-button">Prev</button> */}
+        {/* <button onClick={handleNext} disabled={startIndex + 4 >= SupporterData.length} className="animated-button">Next</button> */}
       </div>
     </div>
   );
