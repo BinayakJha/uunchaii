@@ -52,9 +52,6 @@ const Footer = () => {
             <img src={mail_icon} alt="" /><a href={`mailto:'uunchai@gmail.com'`}><p>uunchai@gmail.com</p></a>
           </div>
           <div className="contact-det">
-            <img src={call_icon} alt="" /> <p>+1 567890123</p>
-          </div>
-          <div className="contact-det">
             <img src={location_icon} alt="" /> <p>PA, United States</p>
           </div>
           <div className="follow">
